@@ -2,9 +2,10 @@
 <div name="readme-top"></div>
 
 <!-- Organization Logo -->
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
-  <img alt="Stability Nexus" src="public/stability.svg" width="175">
-  <img src="public/todo-project-logo.svg" width="175" />
+<div align="center">
+  <img alt="StabilityNexus" src="public/StabilityNexus.svg" width="175">
+  <img alt="DjedAlliance" src="public/djed-alliance.png" width="175">
+  <img alt="StablePay" src="public/StablePay.svg" width="175" />
 </div>
 
 &nbsp;
@@ -12,9 +13,7 @@
 <!-- Organization Name -->
 <div align="center">
 
-[![Static Badge](https://img.shields.io/badge/Stability_Nexus-/TODO-228B22?style=for-the-badge&labelColor=FFC517)](https://TODO.stability.nexus/)
-
-<!-- Correct deployed url to be added -->
+[![Static Badge](https://img.shields.io/badge/Stable-Pay-D27728?style=for-the-badge&labelColor=F7941D)](https://stability.nexus/)
 
 </div>
 
@@ -45,109 +44,40 @@
   <img src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000" alt="Youtube Badge"></a>
 </p>
 
+&nbsp;
+<!-- Project core values and objective -->
+<p align="center">
+  <strong>
+  An open-source SDK <br />
+  empowering you to directly accept <br />
+  cryptocurrency and stablecoin payments
+  free from centralized fintech infrastructure  <br /> 
+  </strong>
+</p>
+
 ---
 
-<div align="center">
-<h1>TODO: Project Name</h1>
+<!-- Project Description (Start from here) -->
+
+StablePay is a fully decentralized solution for online payments. 
+When the StablePay widget is embedded in a website, the widget interacts 
+directly with smart contracts on blockchains, with no intermediary servers.
+
+For more information about StablePay, please visit [StablePay's Main Repository](https://github.com/DjedAlliance/StablePay).
+
+This repository contains the source code for merchant dashboard. 
+The merchant dashboard is where merchants can connect their wallets 
+and see payments that they have received through StablePay.
+
+The dashboard has been used at: https://dashboard.stablepay.stability.nexus/ .
+
+Alternatively, you may also run this dashboard locally in your own computer. 
+This dashboard is a standard next.js project.
+
+---
+
+<!-- Don't delete it -->
+<!-- Funding Badge -->
+<div align="center" name="fund">
+<a href="https://docs.stability.nexus/about-us/fund-us">Fund This Project</a>
 </div>
-
-[TODO](https://TODO.stability.nexus/) is a ... TODO: Project Description.
-
----
-
-## Tech Stack
-
-TODO:
-
-### Frontend
-
-TODO:
-
-- Next.js 14+ (React)
-- TypeScript
-- TailwindCSS
-- shadcn/ui
-
-### Blockchain
-
-TODO:
-
-- Wagmi
-- Solidity Smart Contracts
-- Ethers.js
-- Rainbow-Kit Wallet Integration
-
----
-
-## Getting Started
-
-### Prerequisites
-
-TODO
-
-- Node.js 18+
-- npm/yarn/pnpm
-- MetaMask or any other web3 wallet browser extension
-
-### Installation
-
-TODO
-
-#### 1. Clone the Repository
-
-```bash
-git clone https://github.com/StabilityNexus/TODO.git
-cd TODO
-```
-
-#### 2. Install Dependencies
-
-Using your preferred package manager:
-
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-#### 3. Run the Development Server
-
-Start the app locally:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-#### 4. Open your Browser
-
-Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
-
----
-
-## Contributing
-
-We welcome contributions of all kinds! To contribute:
-
-1. Fork the repository and create your feature branch (`git checkout -b feature/AmazingFeature`).
-2. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-3. Run the development workflow commands to ensure code quality:
-   - `npm run format:write`
-   - `npm run lint:fix`
-   - `npm run typecheck`
-4. Push your branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request for review.
-
-If you encounter bugs, need help, or have feature requests:
-
-- Please open an issue in this repository providing detailed information.
-- Describe the problem clearly and include any relevant logs or screenshots.
-
-We appreciate your feedback and contributions!
-
-© 2025 The Stable Order.
