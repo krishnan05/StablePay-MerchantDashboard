@@ -135,9 +135,12 @@ To start the development server:
 ```sh
 pnpm dev
 # Or: npm run dev
----
-Open http://localhost:3000 with your browser to see the result.
+```
 
+-Open http://localhost:3000 with your browser to see the result.
+
+### Build
+```sh
 pnpm build
 # Or: npm run build
 
